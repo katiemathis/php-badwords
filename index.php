@@ -9,7 +9,7 @@
 
     $badWord = $_GET['badword'];
 
-    $censorBadWord = str_replace('fuck', '***', $paragraph);
+    $censorBadWord = str_replace('badword', '***', $paragraph);
 
     $censoredParagraphLength = strlen($censorBadWord);
 
